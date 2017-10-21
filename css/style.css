@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Grand Hotel', cursive, serif;
+  font-size: 150px;
+  font-style: italic;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1700px;
+}
+
+a {
+  color: black;
+  text-decoration:none;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  -webkit-animation: background 5s infinite;
+}
+
+@-webkit-keyframes background {
+  0% { background-color: #ff99cc; }
+  50% { background-color: white; }
+  100% { background-color: #ff99cc; }
+}

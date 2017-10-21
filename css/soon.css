@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  color: #ff99cc;
+  font-family: 'Questrial', sans-serif;
+}
+
+a {
+  color: #ff99cc;
+  text-decoration:none;
+}
+
+a:hover {
+  color: black;
+}
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  color: black;
+  text-transform: uppercase;
+  /*text-shadow: 2px 2px #ff99cc;*/
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #ff99cc;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 5px 5px black;
+}
+section.module.parallax-1 {
+  background-image: url("../images/create.jpg");
+  background-size: cover;
+  height: 750px;
+}
+section.module.parallax-2 {
+  background-image: url("../images/eyes.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../images/hands.png");
+}
+
+.social img {
+  display: inline-block;
+  height: 4%;
+  width: 4%;
+}
+
+.social a {
+  margin: 0 10px 0 10px;
+}
+
+.quote {
+  color: black;
+  font-style: italic;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 300px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 100px;
+  }
+}

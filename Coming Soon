@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Jo Hamlyn | Freelance Web Designer Based in London UK">
+  <meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <meta name="p:domain_verify" content="1684b6015bdd417b91abeb55174d201d"/>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-103647856-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+	<link rel="icon" href="images/logo.png">
+
+	<title>Jo Hamlyn | Web Design</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/soon.css">
+</head>
+
+<body>
+<section class="module parallax parallax-1">
+  <div class="container">
+    <!-- <h1>Jo Hamlyn Web Design</h1> -->
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Under Construction!</h2>
+    <p>I am currently rebranding and adding some new elements to the services I offer.</p>
+    <p>During this process I still have availability so please get in touch if you would like to work with me.</p>
+    <p>Continue scrolling for a preview of things to come...</p>
+    <p><a href="mailto:hello@johamlyn.com">hello@johamlyn.com</a> | 07852942588</p>
+
+    <div class="social">
+   	 <a href="https://www.linkedin.com/in/johamlyn/"><img src="images/linkedin.png" alt="Linkedin"></a>
+   	 <a href="https://www.instagram.com/disco.mountain"><img src="images/instagram.png" alt="Instagram"></a>
+     <a href="https://github.com/johamlyn"><img src="images/github.svg" alt="GitHub"></a>
+    </div>
+
+  </div>
+</section>
+
+<section class="module parallax parallax-2">
+  <div class="container">
+    <h1>Design</h1>
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Building New Sites...</h2>
+    <p>If you want to bring yourself or your business to life in the digital world I can help.</p>
+    <p>We can work together to design a bespoke site that represents you and your brand online and build a marketing plan to ensure everyone knows your here.</p>
+    <p>See my most recent project <a href="http://christhompsonwriter.com/">@ christhompsonwriter.com</a></p>
+    <div class="quote">
+      <p>"I chose Jo to design and build my website because as well as the technical expertise, she has a sharp eye for what looks great that sets her apart. I wanted something that would make me stand out, and the feedback I've had from my website visitors is that Jo has delivered that beyond my expectations. She's very easy to work with, full of vision and great ideas that fitted the brief, and never missed a deadline. I'm exceedingly happy with my website and so grateful to Jo for making me look good - I recommend her without reservation." Chris Thompson</p>
+    </div>
+  </div>
+</section>
+
+<section class="module parallax parallax-3">
+  <div class="container">
+    <h1>Maintainance</h1>
+  </div>
+</section>
+
+<section class="module content">
+  <div class="container">
+    <h2>Keeping Old Sites Going...</h2>
+    <p>I am working on a set of website support and maintenance packages that will be designed to help those of you who do not need full tech support but want some help keeping your site and other digital projects updated.</p>
+    <p>Maybe you built a site yourself using a template and need some help making some technical adjustments?</p>
+    <p>Prehaps you have been successfully maintaining your own website but after lots of tweaks it's losing usability and needs just a little bit of attention to bring it back to full glory?</p>
+    <p>Or maybe your current tech support feels like overkill and it breaks the budget just to have a picture uploaded or a line of text changed?</p>
+    <p>My packages will start at £7.50 per job and I am able to work across any platform from bespoke built to WordPress, Square Space and beyond</p>
+    <p>Get in touch if you would like to discuss these services in more detail.</p>
+
+    <div class="footer">
+     <p><a href="mailto:hello@johamlyn.com">hello@johamlyn.com</a> | 07852942588</p>
+
+     <div class="social">
+   	   <a href="https://www.linkedin.com/in/johamlyn/"><img src="images/linkedin.png" alt="Linkedin"></a>
+   	   <a href="https://www.instagram.com/disco.mountain"><img src="images/instagram.png" alt="Instagram"></a>
+       <a href="https://github.com/johamlyn"><img src="images/github.svg" alt="GitHub"></a>
+
+     </div>
+    </div>
+  </div>
+
+</section>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="js/soon.js"></script>
+
+</body>
+</html>
